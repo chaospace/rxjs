@@ -11,7 +11,7 @@ RxJS는 관찰가능한 시퀀스를 사용해 비동기 및 이벤트 기반 �
 
 ## 비동기 이벤트를 관리를 위한 RxJS의 주요 개념
 
-- **Observable** : 값 또는 이벤트 호출이 가능한 컬렉션 기능을 제공.
+- [**Observable**](./summary/observables.md) : 값 또는 이벤트 호출이 가능한 컬렉션 기능을 제공.
 - **Observer** : Observable이 전달하는 값을 수신하는 방법을 알고 있는 콜백 모음.
 - **Subscription** : Observable의 실행을 나타내며 주로 실행 취소하는 데 유용합니다.
 - **Operators** : map, filter, concat, reduce 등과 같은 작업으로 컬렉션을 처리하는 함수형 프로그래밍 스타일을 가능하게 하는 순수 함수.
