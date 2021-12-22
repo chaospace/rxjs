@@ -14,7 +14,7 @@ pull과 push는 데이터 제공자가 소비자와 통신하는 방법을 설�
 **Pull**
 풀방식은 데이터 생산자로 부터 데이터를 받는 시기를 소비자가 결정한다. 생산자는 소비자가 언제 데이터를 전달받는지 알 수 없음.
 
-- 모든 자바스크립트 함수는 풀방식이다.함수는 데이터 생산자로 이를 호출하는 코드는 리턴 값을 **'가져(pull)'**와 데이터를 소비합니다.
+- 모든 자바스크립트 함수는 풀방식이다.함수는 데이터 생산자로 이를 호출하는 코드는 리턴 값을 '**가져(pull)**'와 데이터를 소비합니다.
 
 - ES2015는 pull방식의 새로운 유형인 generator함수와 iterators(function \*)를 도입했습니다.
   - iterator.next()코드를 호출하는 곳은 소비자, iterator로 부터 많은 값을 가져온다(생산자)
@@ -36,7 +36,7 @@ RxJS는 Observables를 통해 자바스크립트를 위한 새로운 Push방식�
 
 ### Observables as generalizations of functions
 
-대중적으로 아는 것과 달리 Obserbable은 EventEmitter, 여러 값에 대한 Promise와도 다르다. RxJS의 Subject를 사용해 멀티캐스트되는 경우를 제와하면 EventEmitter처럼 동작하지 않는다.
+대중적으로 아는 것과 달리 Obserbable은 EventEmitter, 여러 값에 대한 Promise와도 다르다. RxJS의 Subject를 사용해 멀티캐스트되는 경우를 제외하면 EventEmitter처럼 동작하지 않는다.
 
 ### Anatomy of an Observable
 
